@@ -3,7 +3,7 @@ Summary(pl):	Synaesthesia dla xmms
 Name:		xmms-visualization-synaesthesia
 Version:	0.0.3
 Release:	2
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications/Multimedia
 Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
 URL:		http://staff.xmms.org/zinx/xmms/
