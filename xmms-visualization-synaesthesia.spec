@@ -6,6 +6,7 @@ Release:	2
 License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
+# Source0-md5:	6d807486d30a733d1069e39e4ecf6074
 URL:		http://staff.xmms.org/zinx/xmms/
 BuildRequires:	autoconf
 BuildRequires:	automake
