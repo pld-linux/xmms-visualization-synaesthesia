@@ -7,8 +7,11 @@ License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
 URL:		http://staff.xmms.org/zinx/xmms/
-Requires:	xmms
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	xmms-devel
+Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -26,7 +29,7 @@ Port Synaesthesii dla xmms.
 %build
 rm -f missing
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
