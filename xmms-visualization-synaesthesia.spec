@@ -5,8 +5,6 @@ Version:	0.0.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
 URL:		http://staff.xmms.org/zinx/xmms/
 Requires:	xmms
