@@ -2,7 +2,7 @@ Summary:	Synaesthesia for xmms
 Summary(pl):	Synaesthesia dla xmms
 Name:		xmms-visualization-synaesthesia
 Version:	0.0.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
@@ -37,12 +37,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf AUTHORS NEWS README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS NEWS README
 %attr(755,root,root) %{_libdir}/xmms/*/*.so
