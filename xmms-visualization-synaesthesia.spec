@@ -1,4 +1,5 @@
-Summary:	Synaesthesia
+Summary:	Synaesthesia for xmms
+Summary(pl):	Synaesthesia dla xmms
 Name:		xmms-visualization-synaesthesia
 Version:	0.0.3
 Release:	1
@@ -6,7 +7,7 @@ License:	GPL
 Group:		X11/Applications/Multimedia
 Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
-Source0:	synaesthesia-xmms-%{version}-rc3.tar.gz
+Source0:	http://staff.xmms.org/zinx/xmms/synaesthesia-xmms-%{version}-rc3.tar.gz
 URL:		http://staff.xmms.org/zinx/xmms/
 Requires:	xmms
 BuildRequires:	xmms-devel
@@ -19,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Synaesthesia port for xmms.
 
 %description -l pl
-Port Synaesthesia-i dla xmms.
+Port Synaesthesii dla xmms.
 
 %prep
 %setup -q -n synaesthesia-xmms-%{version}-rc3
