@@ -24,13 +24,13 @@ Port Synaesthesii dla xmms.
 %setup -q -n synaesthesia-xmms-%{version}-rc3
 
 %build
-rm -f missing                                                                   
-libtoolize --copy --force                                                       
-aclocal                                                                         
-autoconf                                                                        
+rm -f missing
+libtoolize --copy --force
+aclocal
+autoconf
 automake -a -c
-%configure 
-%{__make} 
+%configure
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
