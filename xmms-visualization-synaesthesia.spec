@@ -1,5 +1,5 @@
 Summary:	Synaesthesia for xmms
-Summary(pl):	Synaesthesia dla xmms
+Summary(pl.UTF-8):   Synaesthesia dla xmms
 Name:		xmms-visualization-synaesthesia
 Version:	0.0.3
 Release:	3
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Synaesthesia port for xmms.
 
-%description -l pl
+%description -l pl.UTF-8
 Port Synaesthesii dla xmms.
 
 %prep
