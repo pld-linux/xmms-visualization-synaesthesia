@@ -1,5 +1,5 @@
 Summary:	Synaesthesia for xmms
-Summary(pl.UTF-8):   Synaesthesia dla xmms
+Summary(pl.UTF-8):	Synaesthesia dla xmms
 Name:		xmms-visualization-synaesthesia
 Version:	0.0.3
 Release:	3
